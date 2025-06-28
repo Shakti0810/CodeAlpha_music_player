@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.controls button {
+  margin: 10px;
+  font-size: 24px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
